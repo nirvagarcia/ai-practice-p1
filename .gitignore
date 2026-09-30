@@ -1,0 +1,18 @@
+# Secrets & environments
+.env
+.venv/
+.local/
+
+# Regenerable local state
+data/vectorstore/
+data/checkpoints.sqlite
+
+# Python tooling
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.ruff_cache/
+.coverage

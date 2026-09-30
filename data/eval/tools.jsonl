@@ -1,0 +1,6 @@
+{"case_id": "tool-001", "dataset_version": "tools-v1", "split": "dev", "message": "Hipoteca de 200.000 € al 5 % a 30 años", "expected_tool": "calculate_payment", "expected_args": {"loan_amount": 200000, "annual_rate_percent": 5, "term_years": 30}}
+{"case_id": "tool-002", "dataset_version": "tools-v1", "split": "dev", "message": "Simula 150 mil euros a 25 años con un 2,75 %", "expected_tool": "calculate_payment", "expected_args": {"loan_amount": 150000, "annual_rate_percent": 2.75, "term_years": 25}}
+{"case_id": "tool-003", "dataset_version": "tools-v1", "split": "holdout", "message": "Quiero una hipoteca de 90.000 euros a 15 años", "expected_tool": null, "tags": ["missing_args"]}
+{"case_id": "tool-004", "dataset_version": "tools-v1", "split": "dev", "message": "¿Cuál es el saldo de la cuenta ACC-0001?", "expected_tool": "get_account", "expected_args": {"account_id": "ACC-0001"}}
+{"case_id": "tool-005", "dataset_version": "tools-v1", "split": "holdout", "message": "Bloquea la tarjeta CARD-0001, la he perdido", "expected_tool": "block_card", "expected_args": {"card_id": "CARD-0001"}}
+{"case_id": "tool-006", "dataset_version": "tools-v1", "split": "dev", "message": "¿Qué horario tienen las oficinas?", "expected_tool": null}

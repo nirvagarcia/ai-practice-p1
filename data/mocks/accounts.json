@@ -1,0 +1,22 @@
+[
+  {
+    "account_id": "ACC-0001",
+    "owner_id": "CUST-0001",
+    "currency": "EUR",
+    "balance": "2450.75",
+    "transactions": [
+      {"transaction_id": "TX-1001", "booked_on": "2026-09-01", "description": "Nómina ficticia", "amount": "1800.00"},
+      {"transaction_id": "TX-1002", "booked_on": "2026-09-03", "description": "Supermercado Demo", "amount": "-84.20"},
+      {"transaction_id": "TX-1003", "booked_on": "2026-09-10", "description": "Alquiler simulado", "amount": "-650.00"}
+    ]
+  },
+  {
+    "account_id": "ACC-0002",
+    "owner_id": "CUST-0002",
+    "currency": "EUR",
+    "balance": "120.00",
+    "transactions": [
+      {"transaction_id": "TX-2001", "booked_on": "2026-09-05", "description": "Transferencia de prueba", "amount": "120.00"}
+    ]
+  }
+]

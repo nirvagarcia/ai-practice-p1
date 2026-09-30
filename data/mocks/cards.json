@@ -1,0 +1,5 @@
+[
+  {"card_id": "CARD-0001", "owner_id": "CUST-0001", "last4": "4821", "status": "active"},
+  {"card_id": "CARD-0002", "owner_id": "CUST-0001", "last4": "9034", "status": "blocked"},
+  {"card_id": "CARD-0003", "owner_id": "CUST-0002", "last4": "1177", "status": "active"}
+]
